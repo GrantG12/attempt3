@@ -881,3 +881,62 @@ body {
     font-weight: 700;
     color: #fff;
 }
+
+/* Responsive for mobile */
+
+@media (max-width: 500px) {
+  .neon-text {
+    font-size: 2.2rem;
+  }
+  h2, h3, h4, p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 500px) {
+  .glass-card, 
+  .glass-card.title {
+    margin: 1rem;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .title-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    height: auto;
+    padding: 1rem;
+  }
+  .title-info-animated {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .side-nav a {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  img, video {
+    max-width: 90vw;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .game-button, 
+  .project-link {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
