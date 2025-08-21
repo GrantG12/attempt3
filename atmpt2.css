@@ -979,7 +979,7 @@ body {
   .title-image-glow {
     justify-content: center !important;
     width: 100%;
-    margin: 0;
+    margin: 0 50px 50px 0 ;
   }
   .neon-circle {
     width: 150px;
@@ -987,7 +987,7 @@ body {
   }
   .neon-circle img {
     width: 100px;
-    height: auto;
+    height: 150px;
   }
 }
 
