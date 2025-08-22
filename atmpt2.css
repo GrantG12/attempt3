@@ -1016,3 +1016,10 @@ body {
   }
 }
 
+/* Prevent horizontal scrolling for small media */
+@media (max-width: 500px) {
+  body {
+    overflow-x: hidden; 
+  }
+}
+
