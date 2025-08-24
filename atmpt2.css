@@ -1023,3 +1023,16 @@ body {
   }
 }
 
+/*Expansion effect for resume images on larger screens*/
+@media (min-width: 901px) {
+    .resume-info img {
+        transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+    
+    .resume-info img:hover {
+        transform: scale(1.10);
+        box-shadow: 0 0 60px #00ff9570;
+        z-index: 10;
+        position: relative;
+    }
+}
